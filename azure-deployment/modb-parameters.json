@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_CA_01_name": {
+            "value": "CA-01"
+        },
+        "virtualMachines_DC_01_name": {
+            "value": "DC-01"
+        },
+        "virtualMachines_FS_01_name": {
+            "value": "FS-01"
+        },
+        "virtualMachines_CLI_01_name": {
+            "value": "CLI-01"
+        },
+        "virtualMachines_WEB_01_name": {
+            "value": "WEB-01"
+        },
+        "bastionHosts_modb_bastion_name": {
+            "value": "modb-bastion"
+        },
+        "networkInterfaces_ca_01390_name": {
+            "value": "ca-01-int"
+        },
+        "networkInterfaces_dc_01611_name": {
+            "value": "dc-01-int"
+        },
+        "networkInterfaces_fs_01556_name": {
+            "value": "fs-01-int"
+        },
+        "virtualNetworks_modb_vmnet_name": {
+            "value": "modb-vmnet"
+        },
+        "networkInterfaces_cli_01933_name": {
+            "value": "cli-01-int"
+        },
+        "networkInterfaces_web_01825_name": {
+            "value": "web-01-int"
+        },
+        "publicIPAddresses_modb_bsation_ip_name": {
+            "value": "modb-bastion-ip"
+        }
+    }
+}
